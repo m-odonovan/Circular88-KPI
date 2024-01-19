@@ -27,5 +27,8 @@ This is a a starter / sample. It hasn't been well tested, and is missing some ke
 
 ## FAQ
 1 - Why not use Microsoft Viva Goals instead?
+Viva Goals didn't match the requirements for Circular 88. There are very specifical fields and business rules related to what needs to be captured, and Viva Goals didnt match this. However, it might be that Viva Goals could be used in conjunction with this solution, where it uses this solution (Dataverse) as a source of data.
 
-2 - Why not use Power BI Goals instead?
+2 - Why not use Metrics in Power BI instead?
+Like the Viva Goals question, the requirments couldnt be achieved with just Metrics in Power BI. However, the ideal would be that you use Metrics in Power BI to consume the data captured by this solution.
+
