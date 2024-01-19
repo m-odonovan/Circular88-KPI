@@ -15,6 +15,8 @@ Here is a list of core features of the solution
 ## How it works
 There are 2 main applications which makeup this solution. 1 - Admin Model Driven App (Indicator Manager) 2 - User Indicator Canvas App. All data resides in the Microsoft Dataverse. There are a few Power Automate Flows which are used to notify users to submit their indicators, or to setup indicators, perform rollup calculations and more.
 
+![Model and Canvas App](https://github.com/m-odonovan/Circular88-KPI/blob/main/images/Circular88GIF.gif?raw=true "Model and Canvas App")
+
 ## Installation
 There are 2 solution files which need to be imported into a Power Platform environment for the solution to work.
 1 - Calculation Connector solution - this contains a custom connector only. This connector is used for C# based formula logic, and doesnt actually connect to any backend service. This must be imported first.
