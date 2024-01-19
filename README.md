@@ -1,4 +1,4 @@
-# Circular88-KPI
+# Circular 88 / KPI
 Power Platform solution to manage, gather, report and track performance indicators (KPI). Designed for South African municipalities, based on Circular 88.
 
 ## Background
@@ -7,9 +7,10 @@ This is provided as a solution accelerator. It's a sample solution which is not 
 ## Features
 Here is a list of core features of the solution
 
-- 2
-- 3
-- 4
+- Define Indicator and Data Element templates. These are used to generate indicators/elements for collection, based on reporting period i.e. Anually / Quarterly
+- Allow users who are assigned indicators (via their business unit), to save values as draft and submit final values. Users can submit value or reasoning for no values. Along with other comments as per Circular 88.
+- Send reminders to users who haven't submmited yet
+- Allow for user defined formula for each indicator based on child data elements e.g. in some cases it could be sum of values of all child elements, and sometimes more complex forumal e.g. (child1 + child2) * 365 / 3
 
 ## How it works
 There are 2 main applications which makeup this solution. 1 - Admin Model Driven App (Indicator Manager) 2 - User Indicator Canvas App. All data resides in the Microsoft Dataverse. There are a few Power Automate Flows which are used to notify users to submit their indicators, or to setup indicators, perform rollup calculations and more.
@@ -21,6 +22,10 @@ There are 2 solution files which need to be imported into a Power Platform envir
 
 Once imported, use the model driven apps setup section to add a default settings record, add Collection Business Unit records and Unit of Measure records. There are 3 custom roles which users will need to be assigend to i.e. Performance Indicator User, Performance Indicator Manager, and Performance Indicator Admin.
 
-
 ## Provided "As-Is"
 This is a a starter / sample. It hasn't been well tested, and is missing some key features that I hope to add over time. It not officialy supported by myself or Microsoft. However, because the unmanaged and managed solution is provided, you should be able to support it yourself, either directly or through a certified Microsoft partner.
+
+## FAQ
+1 - Why not use Microsoft Viva Goals instead?
+
+2 - Why not use Power BI Goals instead?
