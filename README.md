@@ -20,6 +20,7 @@ There are 2 main applications which makeup this solution. 1 - Admin Model Driven
 ## Video Demos
 
 - [Solution Demonstration](https://youtu.be/7LnTThswnD8)
+- [Under the hood, how it works](https://youtu.be/vPHJJu4UMMc)
 
 ## Installation
 There are 2 solution files which need to be imported into a Power Platform environment for the solution to work.
