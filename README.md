@@ -17,6 +17,10 @@ There are 2 main applications which makeup this solution. 1 - Admin Model Driven
 
 ![Model and Canvas App](https://github.com/m-odonovan/Circular88-KPI/blob/main/images/Circular88GIF.gif?raw=true "Model and Canvas App")
 
+## Video Demos
+
+- [Solution Demonstration](https://youtu.be/7LnTThswnD8)
+
 ## Installation
 There are 2 solution files which need to be imported into a Power Platform environment for the solution to work.
 1 - Calculation Connector solution - this contains a custom connector only. This connector is used for C# based formula logic, and doesnt actually connect to any backend service. This must be imported first.
